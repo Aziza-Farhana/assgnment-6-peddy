@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peddy -Pet shop</title>
+    <!--font awesome cdn-->
+    <script
+      src="https://kit.fontawesome.com/bbfc4be646.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- google fonts cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- tailwind cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: '#da373d',
+            },
+          },
+        },
+      }
+    </script>
+
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.12/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+   
+</head>
+<body>
+    <header>
+        <nav class="flex flex-row mt-5 md:mx- lg:mx-5">
+            <div class="text-2xl font-bold"><i class="fa-solid fa-paw text-green-900"></i> Peddy</div>
+            <div class="flex-1 flex justify-center align-center mt-3"><ul class=" flex text-xs text-gray-500 md:gap-5 lg:gap-10">
+                <li>Home</li>
+                <li>Shop</li>
+                <li>Contact</li>
+            </ul></div>
+            <div class="border-2 rounded-full py-2 px-3 border-green-900 "><i class="fa-solid fa-user text-green-900"></i></div>
+        </nav>
+    </header>
+
+    <section id="banner-section"><div class="text-center sm:my-0 md:my-3 lg:my-5"><h1 class="text-gray-500 font-bold">Bringing Families Together</h1></div>
+    <div class="text-center"><h1 class="sm:text-xl md:text-3xl lg:text-5xl font-bold text-black sm:mx-0 md:mx-60 lg:mx-60">Your Path to Adoption Starts Here</h1>
+    <p class="text-gray-900 text-sm sm:mx-0 md:mx-7 lg:mx-40 my-5">Pets can bring immense joy and companionship into our lives, providing comfort and unconditional love. They often require care and attention, helping us develop a sense of responsibility and routine. </p>
+
+    <button class="bg-green-900 rounded-lg text-white py-3 px-6">View More</button>
+    </div>
+
+    <div class="flex flex-row justify-center my-5">
+      <img src="images/pet.webp " alt="">
+    </div>
+    
+    
+     
+    
+    
+    </section>
+
+
+    <!-- second section starts here -->
+    <section id="second-section" class="grid">
+      <div class="text-center"><h1 class="text-3xl font-bold md:mx-40 lg:60 ">Adopt Your Best Friend</h1>
+        <p class="text-gray-900 text-sm sm:mx-0 md:mx-7 lg:mx-60 my-5">
+          A pet is a silent guardian of our hearts, their unconditional love weaving warmth and joy into the tapestry of our everyday lives.
+        </p></div>
+
+        <div id="categories" class="flex justify-center">
+          
+<div id="pets">
+
+</div>
+
+
+        </div>
+        
+        <div class="flex mt-5">
+          <h1 class=" flex-1 text-2xl font-bold mx-5">Best Deals For You</h1>
+          <div > <button class="bg-green-900 rounded-lg text-white py-2 px-5 mx-5">Sort by Price</button></div></div>
+        <div id="card-section" class="grid sm:grid-col-1 md:grid-cols-3 lg:grid-cols-4 border-1 border-green-900 rounded-lg gap-3 md:mx-3 lg:mx-5">
+
+          <div id="cards" class="md:col-span-2 lg:col-span-3 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  rounded-lg gap-5 py-10"></div>
+
+          <div id="picture-add" class="col-span-1 rounded-lg border-2 border-gray-300 grid grid-cols-2  my-10  gap-2 "></div>
+
+        </div>
+    </section>
+
+
+
+
+
+    <!-- footer section -->
+
+    <footer class="bg-black text-white text-sm py-10 px-4 md:px-16">
+      <div class="w-10/12 mx-auto">
+        <!-- Logo -->
+        <div class="text-3xl font-bold "><i class="fa-solid fa-paw text-green-900"></i> Peddy</div>
+        <!-- Links -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 Lg:gap-6">
+          <!-- first column -->
+          <div>
+            <ul class="space-y-2 my-10">
+              <li>
+                <a class="hover:text-green-600" href="#">Home</a>
+              </li>
+              <li>
+                <a class="hover:text-green-600" href="#">Insurance</a>
+              </li>
+              <li>
+                <a class="hover:text-green-600" href="#">About</a>
+              </li>
+              <li>
+                <a class="hover:text-green-600" href="#">Privacy Policy</a>
+              </li>
+            </ul>
+          </div>
+          <!-- second column -->
+          <div>
+            <h3 class="font-semibold text-lg mb-3">Useful links</h3>
+            <ul class="space-y-2">
+              <li>
+                <a class="hover:text-orange-600" href="#">Insurance</a>
+              </li>
+              <li>
+                <a class="hover:text-orange-600" href="#">About</a>
+              </li>
+              <li>
+                <a class="hover:text-orange-600" href="#">Privacy Policy</a>
+              </li>
+              <li>
+                <a class="hover:text-orange-600" href="#">Privacy Policy</a>
+              </li>
+            </ul>
+          </div>
+          <!-- third column -->
+          <div>
+            <h3 class="font-semibold text-lg mb-3">
+              Drop a message
+            </h3>
+            <div class="flex flex-col space-y-2">
+              <div>
+                <input
+                  placeholder="Message"
+                  type="text"
+                  class="bg-white  border-b-2 border-green-900 rounded-lg py-2 px-6"
+                />
+                <button class="bg-green-900 rounded-lg text-white font-bold py-2 px-6 my-5">Subscribe</button>
+            
+                <div class="flex justify-between w-2/5 mb-2 mt-8">
+                  <i class="fa-brands fa-facebook"></i>
+                  <i class="fa-brands fa-square-instagram"></i>
+                  <i class="fa-brands fa-square-twitter"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text-center pt-4 mt-4">
+          <p class="text-sm text-gray-600">
+            © 2027 UIDesign.to - All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+    
+    
+
+
+    
+  
+    <script src="js/index.js"></script> 
+</body>
+</html>
